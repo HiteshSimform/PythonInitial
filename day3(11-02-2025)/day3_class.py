@@ -69,3 +69,14 @@ class Student:
  
 #  Static Methods
 
+
+# 4 Pillars
+
+# Abstraction
+# Encapsulation
+# Inheritance
+# Polymorphism
+
+# Dunder Function
+# Operator Overloading
+
