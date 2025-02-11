@@ -6,3 +6,4 @@ y=x
 print(id(x))
 print(id(y))
 
+import array as a
