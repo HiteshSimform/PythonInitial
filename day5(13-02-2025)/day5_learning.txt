@@ -1,0 +1,14 @@
+13-02-2025
+
+File Handling
+File Read Write
+
+
+Great question! Understanding why we need abstract classes and abstract methods is crucial because they serve specific purposes in designing scalable, maintainable, and flexible software. Let me break it down in simple terms.
+Why Do We Need Abstract Classes and Abstract Methods?
+1. Enforcing a Common Interface (Contract)
+
+Abstract classes and abstract methods allow us to define a common interface that all subclasses must follow. This is especially useful when you have a set of related classes that should share certain behavior but may have different implementations.
+
+    Abstract Methods act as a contract. Any class that inherits from the abstract class must implement the abstract methods.
+    Abstract Classes provide the skeleton for subclasses, ensuring that they all adhere to a specific structure.
