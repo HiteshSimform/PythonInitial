@@ -189,3 +189,27 @@ for animal in animals:
 ---
 
 Feel free to adapt and extend this document based on your specific project requirements! Let me know if you have any further questions or need more examples.
+
+Based on the search results, `int` is not the superclass of *all* data types in Python, but it is part of a hierarchy of numeric types and has a special relationship with the `bool` type[2][6].
+
+Here's a breakdown:
+
+*   **Numeric Type Hierarchy:** There's a hierarchy of numeric types in Python[2]:
+    *   `int` (integers)
+    *   `numbers.Integral`
+    *   `numbers.Rational`
+    *   `numbers.Real`
+    *   `numbers.Complex`
+*   **`bool` as a Subclass of `int`:** The `bool` type (boolean values `True` and `False`) is a subclass of `int`[1][4]. This means that `bool` inherits properties and methods from `int`[1].  `True` is treated as the integer `1`, and `False` is treated as the integer `0`[4].
+
+Therefore, while `int` is a superclass in the numeric type hierarchy and `bool` is a subclass of `int`, `int` is not a superclass for *all* data types in Python (e.g., `str`, `list`, etc.)[6].
+
+Citations:
+[1] https://www.learnpython.dev/03-intermediate-python/30-oop-classes-inheritance/70-inheritance/
+[2] https://object-oriented-python.github.io/7_inheritance.html
+[3] https://www.w3schools.com/python/python_inheritance.asp
+[4] http://jfine-python-classes.readthedocs.io/en/latest/subclass-int.html
+[5] https://stackoverflow.com/questions/3238350/subclassing-int-in-python
+[6] https://docs.python.org/3/library/stdtypes.html
+[7] https://docs.python.org/3/tutorial/classes.html
+[8] https://www.wscubetech.com/resources/python/inheritance
