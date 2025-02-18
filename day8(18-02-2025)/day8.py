@@ -3,3 +3,5 @@
 # Multi Processing
 
 import multiprocessing
+
+print(f"Available CPU Cores: {multiprocessing.cpu_count()}")
