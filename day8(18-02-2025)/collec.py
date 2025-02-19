@@ -16,7 +16,7 @@ print(p1._asdict())
 
 # deque
 
-dq = deque([1,2,3,4,5])
+dq = deque([1,2,3,4,5]) 
 dq.append(6)
 print(dq)
 
