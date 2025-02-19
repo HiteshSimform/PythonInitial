@@ -1,0 +1,4 @@
+without mro how we can call the methods 
+llm mixture of experts
+mixtral
+stagemaker - deploy
