@@ -1,0 +1,58 @@
+07-02-2025
+
+What is Python?
+
+Python is a very popular general-purpose interpreted, interactive, object-oriented, and high-level programming language. Python is dynamically-typed and garbage-collected programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL).  
+
+Arithmetic operations
+
+Both list.sort() and sorted() have key and reverse optional arguments that can be called on each list element prior to making comparisons23. Use list.sort() when you intend to mutate the list, and the original order is not needed, and use sorted() when you want a new sorted list while preserving the original iterable
+
+Feature	List	Tuple	Set	Dictionary
+Mutability	Mutable (modifiable)	Immutable (non-modifiable)	Mutable, elements must be immutable	Mutable; keys immutable, values mutable
+Order	Ordered	Ordered	Unordered (no guaranteed order)	Ordered (from Python 3.7+, insertion order)
+Duplicates	Allows duplicates	Allows duplicates	Unique elements only	Unique keys, duplicate values allowed
+Syntax	[item1, item2]	(item1, item2)	{item1, item2}	{key1: value1, key2: value2}
+Use case	Collection of similar items	Collection of different items, order matters	Membership testing, removing duplicates	Key-value pairs for lookup
+
+enuity
+
+sns
+sqs - aws
+aws queue
+dead queue
+
+save in dict and list
+how it save
+
+generator use , for execution fast, reduce memory
+
+core cpu
+
+thread async await for parallel run the code
+
+wrappwer function for log
+
+
+data classes - in new version of python
+python loosely coupled - for data classes used - JS
+tightly coupled - TypeScript
+
+GIL in python
+
+For multiprocesing we need to override GIL
+
+L1 graph of model
+
+integrate swagger in django : for automatically generate documentation
+/docs in url
+gives apis docuentation
+
+
+
+
+
+You have a table with product sales data that includes the day of the week and the original price. 
+Implement dynamic pricing: If the sale occurred on a weekend (Saturday or Sunday), increase the price by 10%. Otherwise, 
+keep the original price. 
+Return product name, sale date, and sale price.
